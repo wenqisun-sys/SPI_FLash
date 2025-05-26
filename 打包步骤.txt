@@ -1,0 +1,12 @@
+CMD目录下：
+
+cd D:\GUI\SPI_Flash
+
+venv\Scripts\activate
+
+pyinstaller -F -w -i "D:\GUI\SPI_Flash\lightning.ico" --add-data "umt_logo.png;." --add-data "timer_dialog.py;." --add-data "D:\GUI\SPI_Flash\lightning.ico;." --hidden-import serial --name UMT_S01 main.py
+
+
+.ico 转换：https://convertio.co/
+
+闪电图标地址：https://www.flaticon.com/free-icons/lightning
