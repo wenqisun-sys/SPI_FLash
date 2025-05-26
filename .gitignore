@@ -1,0 +1,16 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+
+# 忽略打包生成的文件
+build/
+dist/
+*.exe
+
+# 忽略临时文件和日志
+*.log
+*.tmp
+
+# 忽略 IDE 或编辑器的配置文件（如果有）
+.idea/  # PyCharm 的配置文件
+*.code-workspace  # VS Code 配置文件
